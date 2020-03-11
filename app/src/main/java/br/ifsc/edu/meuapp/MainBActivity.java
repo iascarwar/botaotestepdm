@@ -9,6 +9,6 @@ public class MainBActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.); // renomear para letras minusculas 
+        setContentView(R.layout.activityb_main); // renomear para letras minusculas
     }
 }

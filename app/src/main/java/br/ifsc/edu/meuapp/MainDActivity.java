@@ -9,6 +9,6 @@ public class MainDActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activityD_main);
+        setContentView(R.layout.activityd_main);
     }
 }
