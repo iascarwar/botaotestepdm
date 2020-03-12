@@ -9,19 +9,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="112dp">
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/patinho" />
+            android:layout_width="match_parent"
+            android:layout_height="348dp" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="mudaTexto"
-            android:text="Button" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="mudaFoto"
+            android:text="Mudar Foto" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
